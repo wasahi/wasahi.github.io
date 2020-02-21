@@ -1,0 +1,70 @@
+<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/style -->
+<svg viewBox="0 0 500 500" version="1.1" id="svg_null" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    svg {
+      max-width: 700px;
+      max-height: 700px;
+    }
+    :not(svg) {
+      box-sizing: inherit;
+    }
+    g#root {
+      stroke: none;
+      stroke-width: 1px;
+      fill: none;
+      fill-rule: evenodd;
+    }
+    rect#background\.primary {
+      fill: rgba(243, 246, 243, 0);
+      x: 0px;
+      y: 0px;
+      width: 500px;
+      height: 500px;
+    }
+    g#shape {
+    fill: rgb(255, 255, 255);
+    }
+    polygon#shape\.secondary {
+    opacity: 0.3;
+    fill: rgb(48, 56, 65);
+    }
+    polygon#shape\.secondary {
+    opacity: 0.6;
+    fill: rgb(48, 56, 65);
+    }
+    polygon#shape\.secondary {
+    opacity: 0.9;
+    fill: rgb(48, 56, 65);
+    }
+    rect#Rectangle-15 {
+    x: 0px;
+    y: 0px;
+    width: 420px;
+    height: 70px;
+    }
+    text#headerText {
+      font-family: Megrim;
+      font-size: 70px;
+      font-weight: 400;
+      fill: rgb(48, 56, 65);
+      font-style: normal;
+    }
+    :not(svg), :not(foreignObject) > svg {
+      transform-origin-x: 0px;
+      transform-origin-y: 0px;
+      transform-box: view-box;
+    }
+  </style>
+  <g id="root" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <rect id="background.primary" fill="#f3f3f3" x="0" y="0" width="500" height="500"></rect>
+    <g id="shape" transform="translate(100.000000, 107.000000)" fill="#FFF">
+      <polygon id="shape.secondary" opacity=".3" points="50 100 100 200 0 200" fill="#303841"></polygon>
+      <polygon id="shape.secondary" opacity=".6" points="125 50 200 200 50 200" fill="#303841"></polygon>
+      <polygon id="shape.secondary" opacity=".9" points="200 0 300 200 100 200" fill="#303841"></polygon>
+    </g>
+    <g id="Group" transform="translate(40.000000, 323.000000)">
+      <rect id="Rectangle-15" x="0" y="0" width="420" height="70"></rect>
+      <text id="headerText" font-family="Megrim" font-size="70" font-weight="400" line-spacing="70" fill="#303841" data-text-alignment="c" font-style="normal"><tspan x="99.0546875" y="59.5">Wasahi</tspan></text>
+    </g>
+  </g>
+</svg>
